@@ -1,0 +1,22 @@
+/usr/lib/jvm/java-17-openjdk-amd64/bin/java \
+  --class-path \
+  /home/huzaifa/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar \
+  com.google.prefab.cli.AppKt \
+  --build-system \
+  cmake \
+  --platform \
+  android \
+  --abi \
+  arm64-v8a \
+  --os-version \
+  24 \
+  --stl \
+  c++_shared \
+  --ndk-version \
+  27 \
+  --output \
+  /tmp/agp-prefab-staging9881448345676145404/staged-cli-output \
+  /home/huzaifa/.gradle/caches/8.13/transforms/969f1611d3df9864336caf9f7bd0fad8/transformed/react-android-0.79.2-release/prefab \
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/intermediates/cxx/refs/react-native-reanimated/14627332 \
+  /home/huzaifa/.gradle/caches/8.13/transforms/4a4fe26ca578aed8e2e389e6dd6ea3a8/transformed/hermes-android-0.79.2-release/prefab \
+  /home/huzaifa/.gradle/caches/8.13/transforms/7724425857f4c2113b23ce380df6c44d/transformed/fbjni-0.7.0/prefab

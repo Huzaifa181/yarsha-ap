@@ -1,0 +1,11 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "allowImportingTsExtensions": false
+  },
+  "include": ["./src/**/*", "./src/@types/**/*", "src/index.d.ts", ".eslintrc.js", "jest.setup.js", "jest.config.js", "babel.config.js", "index.js", "src/declarations.d.ts"]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyC_S6zVOrJmEo0RLc1c4fkbxiUkwmyfC4A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1083013773657</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mokshya.yarsha</string>
+	<key>PROJECT_ID</key>
+	<string>yarsha-5778c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>yarsha-5778c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1083013773657:ios:f5c846abbd30bd329df448</string>
+	<key>DATABASE_URL</key>
+	<string>https://yarsha-5778c-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

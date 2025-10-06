@@ -1,0 +1,2254 @@
+diff --git a/node_modules/react-native-share/README.md b/node_modules/react-native-share/README.md
+index eb9087e..c17ab29 100644
+--- a/node_modules/react-native-share/README.md
++++ b/node_modules/react-native-share/README.md
+@@ -33,8 +33,7 @@ Configure you `app.config.ts` or `app.json` to use the permissions needed by the
+           "com.instagram.android",
+           "com.twitter.android",
+           "com.zhiliaoapp.musically",
+-        ],
+-        "enableBase64ShareAndroid": true
++        ]
+       }
+     ]
+   ]
+@@ -64,12 +63,6 @@ Configure you `app.config.ts` or `app.json` to use the permissions needed by the
+ </queries>
+ ```
+ 
+-`enableBase64ShareAndroid` will take care of adding the permission to the AndroidManifest.xml.
+-
+-```xml
+-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+-```
+-
+ And prebuild the project with `expo prebuild`.
+ 
+ ## Bare React Native
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/results.bin b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/results.bin
+new file mode 100644
+index 0000000..7ed749e
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/results.bin
+@@ -0,0 +1 @@
++o/bundleLibRuntimeToDirDebug
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/BuildConfig.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/BuildConfig.dex
+new file mode 100644
+index 0000000..5a43c31
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/BuildConfig.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/NativeRNShareSpec.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/NativeRNShareSpec.dex
+new file mode 100644
+index 0000000..9fe5d0a
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/NativeRNShareSpec.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShare.dex
+new file mode 100644
+index 0000000..bf614ec
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareFileProvider.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareFileProvider.dex
+new file mode 100644
+index 0000000..a44040b
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareFileProvider.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareImpl$1.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareImpl$1.dex
+new file mode 100644
+index 0000000..af7fbee
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareImpl$1.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareImpl$SHARES.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareImpl$SHARES.dex
+new file mode 100644
+index 0000000..96b6d72
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareImpl$SHARES.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareImpl.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareImpl.dex
+new file mode 100644
+index 0000000..b68ba5d
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNShareImpl.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNSharePackage.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNSharePackage.dex
+new file mode 100644
+index 0000000..a45579e
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNSharePackage.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNSharePathUtil.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNSharePathUtil.dex
+new file mode 100644
+index 0000000..4b79826
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/RNSharePathUtil.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/ShareApplication.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/ShareApplication.dex
+new file mode 100644
+index 0000000..d10cffd
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/ShareApplication.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/ShareFile.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/ShareFile.dex
+new file mode 100644
+index 0000000..0834d7e
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/ShareFile.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/ShareFiles.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/ShareFiles.dex
+new file mode 100644
+index 0000000..a9e4859
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/ShareFiles.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/DiscordShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/DiscordShare.dex
+new file mode 100644
+index 0000000..bc545d5
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/DiscordShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/EmailShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/EmailShare.dex
+new file mode 100644
+index 0000000..8dbdeea
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/EmailShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/FacebookPagesManagerShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/FacebookPagesManagerShare.dex
+new file mode 100644
+index 0000000..d5f2280
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/FacebookPagesManagerShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/FacebookShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/FacebookShare.dex
+new file mode 100644
+index 0000000..1d55479
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/FacebookShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/FacebookStoriesShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/FacebookStoriesShare.dex
+new file mode 100644
+index 0000000..a272c79
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/FacebookStoriesShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/GenericShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/GenericShare.dex
+new file mode 100644
+index 0000000..a955d3c
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/GenericShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/GooglePlusShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/GooglePlusShare.dex
+new file mode 100644
+index 0000000..1d9e3cd
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/GooglePlusShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/InstagramShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/InstagramShare.dex
+new file mode 100644
+index 0000000..132f78c
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/InstagramShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/InstagramStoriesShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/InstagramStoriesShare.dex
+new file mode 100644
+index 0000000..0feae68
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/InstagramStoriesShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/LinkedinShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/LinkedinShare.dex
+new file mode 100644
+index 0000000..00c7f53
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/LinkedinShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/MessengerShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/MessengerShare.dex
+new file mode 100644
+index 0000000..b48d8d1
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/MessengerShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/PinterestShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/PinterestShare.dex
+new file mode 100644
+index 0000000..e95af70
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/PinterestShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/SMSShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/SMSShare.dex
+new file mode 100644
+index 0000000..f2c0d81
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/SMSShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/ShareIntent$1.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/ShareIntent$1.dex
+new file mode 100644
+index 0000000..af67216
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/ShareIntent$1.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/ShareIntent.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/ShareIntent.dex
+new file mode 100644
+index 0000000..c94b878
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/ShareIntent.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/SingleShareIntent.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/SingleShareIntent.dex
+new file mode 100644
+index 0000000..a352472
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/SingleShareIntent.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/SnapChatShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/SnapChatShare.dex
+new file mode 100644
+index 0000000..2f57e03
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/SnapChatShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/TargetChosenReceiver.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/TargetChosenReceiver.dex
+new file mode 100644
+index 0000000..47a5c48
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/TargetChosenReceiver.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/TelegramShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/TelegramShare.dex
+new file mode 100644
+index 0000000..81d0ebc
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/TelegramShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/TwitterShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/TwitterShare.dex
+new file mode 100644
+index 0000000..d27bc72
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/TwitterShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/ViberShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/ViberShare.dex
+new file mode 100644
+index 0000000..a4b6048
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/ViberShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/WhatsAppBusinessShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/WhatsAppBusinessShare.dex
+new file mode 100644
+index 0000000..995caa8
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/WhatsAppBusinessShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/WhatsAppShare.dex b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/WhatsAppShare.dex
+new file mode 100644
+index 0000000..680c63d
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/cl/json/social/WhatsAppShare.dex differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin
+new file mode 100644
+index 0000000..7d2736f
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/07da75a1eb98751f20c56049820a5962/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin differ
+diff --git a/node_modules/react-native-share/android/build/.transforms/e6eb8dac1b5893f24e928e532de80029/results.bin b/node_modules/react-native-share/android/build/.transforms/e6eb8dac1b5893f24e928e532de80029/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/.transforms/e6eb8dac1b5893f24e928e532de80029/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/react-native-share/android/build/.transforms/e6eb8dac1b5893f24e928e532de80029/transformed/classes/classes_dex/classes.dex b/node_modules/react-native-share/android/build/.transforms/e6eb8dac1b5893f24e928e532de80029/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..84112e0
+Binary files /dev/null and b/node_modules/react-native-share/android/build/.transforms/e6eb8dac1b5893f24e928e532de80029/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/react-native-share/android/build/generated/source/buildConfig/debug/cl/json/BuildConfig.java b/node_modules/react-native-share/android/build/generated/source/buildConfig/debug/cl/json/BuildConfig.java
+new file mode 100644
+index 0000000..89e3fe9
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/buildConfig/debug/cl/json/BuildConfig.java
+@@ -0,0 +1,10 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package cl.json;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String LIBRARY_PACKAGE_NAME = "cl.json";
++  public static final String BUILD_TYPE = "debug";
++}
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/java/cl/json/NativeRNShareSpec.java b/node_modules/react-native-share/android/build/generated/source/codegen/java/cl/json/NativeRNShareSpec.java
+new file mode 100644
+index 0000000..d75ffb9
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/java/cl/json/NativeRNShareSpec.java
+@@ -0,0 +1,105 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleJavaSpec.js
++ *
++ * @nolint
++ */
++
++package cl.json;
++
++import com.facebook.proguard.annotations.DoNotStrip;
++import com.facebook.react.bridge.Promise;
++import com.facebook.react.bridge.ReactApplicationContext;
++import com.facebook.react.bridge.ReactContextBaseJavaModule;
++import com.facebook.react.bridge.ReactMethod;
++import com.facebook.react.bridge.ReadableMap;
++import com.facebook.react.common.build.ReactBuildConfig;
++import com.facebook.react.turbomodule.core.interfaces.TurboModule;
++import java.util.Arrays;
++import java.util.HashSet;
++import java.util.Map;
++import java.util.Set;
++import javax.annotation.Nonnull;
++import javax.annotation.Nullable;
++
++public abstract class NativeRNShareSpec extends ReactContextBaseJavaModule implements TurboModule {
++  public static final String NAME = "RNShare";
++
++  public NativeRNShareSpec(ReactApplicationContext reactContext) {
++    super(reactContext);
++  }
++
++  @Override
++  public @Nonnull String getName() {
++    return NAME;
++  }
++
++  protected abstract Map<String, Object> getTypedExportedConstants();
++
++  @Override
++  @DoNotStrip
++  public final @Nullable Map<String, Object> getConstants() {
++    Map<String, Object> constants = getTypedExportedConstants();
++    if (ReactBuildConfig.DEBUG || ReactBuildConfig.IS_INTERNAL_BUILD) {
++      Set<String> obligatoryFlowConstants = new HashSet<>();
++      Set<String> optionalFlowConstants = new HashSet<>(Arrays.asList(
++          "DISCORD",
++          "EMAIL",
++          "FACEBOOK",
++          "FACEBOOKSTORIES",
++          "GENERIC",
++          "GOOGLEPLUS",
++          "INSTAGRAM",
++          "INSTAGRAMSTORIES",
++          "LINKEDIN",
++          "MESSENGER",
++          "PAGESMANAGER",
++          "PINTEREST",
++          "SHARE_BACKGROUND_AND_STICKER_IMAGE",
++          "SHARE_BACKGROUND_IMAGE",
++          "SHARE_BACKGROUND_VIDEO",
++          "SHARE_STICKER_IMAGE",
++          "SMS",
++          "SNAPCHAT",
++          "TELEGRAM",
++          "TWITTER",
++          "VIBER",
++          "WHATSAPP",
++          "WHATSAPPBUSINESS"
++      ));
++      Set<String> undeclaredConstants = new HashSet<>(constants.keySet());
++      undeclaredConstants.removeAll(obligatoryFlowConstants);
++      undeclaredConstants.removeAll(optionalFlowConstants);
++      if (!undeclaredConstants.isEmpty()) {
++        throw new IllegalStateException(String.format("Native Module Flow doesn't declare constants: %s", undeclaredConstants));
++      }
++      undeclaredConstants = obligatoryFlowConstants;
++      undeclaredConstants.removeAll(constants.keySet());
++      if (!undeclaredConstants.isEmpty()) {
++        throw new IllegalStateException(String.format("Native Module doesn't fill in constants: %s", undeclaredConstants));
++      }
++    }
++    return constants;
++  }
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void open(ReadableMap options, Promise promise);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void shareSingle(ReadableMap options, Promise promise);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void isPackageInstalled(String packagename, Promise promise);
++
++  @ReactMethod
++  @DoNotStrip
++  public abstract void isBase64File(String url, Promise promise);
++}
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/CMakeLists.txt b/node_modules/react-native-share/android/build/generated/source/codegen/jni/CMakeLists.txt
+new file mode 100644
+index 0000000..2495a8c
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/CMakeLists.txt
+@@ -0,0 +1,36 @@
++# Copyright (c) Meta Platforms, Inc. and affiliates.
++#
++# This source code is licensed under the MIT license found in the
++# LICENSE file in the root directory of this source tree.
++
++cmake_minimum_required(VERSION 3.13)
++set(CMAKE_VERBOSE_MAKEFILE on)
++
++file(GLOB react_codegen_SRCS CONFIGURE_DEPENDS *.cpp react/renderer/components/RNShareSpec/*.cpp)
++
++add_library(
++  react_codegen_RNShareSpec
++  OBJECT
++  ${react_codegen_SRCS}
++)
++
++target_include_directories(react_codegen_RNShareSpec PUBLIC . react/renderer/components/RNShareSpec)
++
++target_link_libraries(
++  react_codegen_RNShareSpec
++  fbjni
++  jsi
++  # We need to link different libraries based on whether we are building rncore or not, that's necessary
++  # because we want to break a circular dependency between react_codegen_rncore and reactnative
++  reactnative
++)
++
++target_compile_options(
++  react_codegen_RNShareSpec
++  PRIVATE
++  -DLOG_TAG=\"ReactNative\"
++  -fexceptions
++  -frtti
++  -std=c++20
++  -Wall
++)
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/RNShareSpec-generated.cpp b/node_modules/react-native-share/android/build/generated/source/codegen/jni/RNShareSpec-generated.cpp
+new file mode 100644
+index 0000000..f2cfe2b
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/RNShareSpec-generated.cpp
+@@ -0,0 +1,56 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleJniCpp.js
++ */
++
++#include "RNShareSpec.h"
++
++namespace facebook::react {
++
++static facebook::jsi::Value __hostFunction_NativeRNShareSpecJSI_getConstants(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, ObjectKind, "getConstants", "()Ljava/util/Map;", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeRNShareSpecJSI_open(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "open", "(Lcom/facebook/react/bridge/ReadableMap;Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeRNShareSpecJSI_shareSingle(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "shareSingle", "(Lcom/facebook/react/bridge/ReadableMap;Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeRNShareSpecJSI_isPackageInstalled(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "isPackageInstalled", "(Ljava/lang/String;Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++static facebook::jsi::Value __hostFunction_NativeRNShareSpecJSI_isBase64File(facebook::jsi::Runtime& rt, TurboModule &turboModule, const facebook::jsi::Value* args, size_t count) {
++  static jmethodID cachedMethodId = nullptr;
++  return static_cast<JavaTurboModule &>(turboModule).invokeJavaMethod(rt, PromiseKind, "isBase64File", "(Ljava/lang/String;Lcom/facebook/react/bridge/Promise;)V", args, count, cachedMethodId);
++}
++
++NativeRNShareSpecJSI::NativeRNShareSpecJSI(const JavaTurboModule::InitParams &params)
++  : JavaTurboModule(params) {
++  methodMap_["getConstants"] = MethodMetadata {0, __hostFunction_NativeRNShareSpecJSI_getConstants};
++  methodMap_["open"] = MethodMetadata {1, __hostFunction_NativeRNShareSpecJSI_open};
++  methodMap_["shareSingle"] = MethodMetadata {1, __hostFunction_NativeRNShareSpecJSI_shareSingle};
++  methodMap_["isPackageInstalled"] = MethodMetadata {1, __hostFunction_NativeRNShareSpecJSI_isPackageInstalled};
++  methodMap_["isBase64File"] = MethodMetadata {1, __hostFunction_NativeRNShareSpecJSI_isBase64File};
++}
++
++std::shared_ptr<TurboModule> RNShareSpec_ModuleProvider(const std::string &moduleName, const JavaTurboModule::InitParams &params) {
++  if (moduleName == "RNShare") {
++    return std::make_shared<NativeRNShareSpecJSI>(params);
++  }
++  return nullptr;
++}
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/RNShareSpec.h b/node_modules/react-native-share/android/build/generated/source/codegen/jni/RNShareSpec.h
+new file mode 100644
+index 0000000..a1429ce
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/RNShareSpec.h
+@@ -0,0 +1,31 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleJniH.js
++ */
++
++#pragma once
++
++#include <ReactCommon/JavaTurboModule.h>
++#include <ReactCommon/TurboModule.h>
++#include <jsi/jsi.h>
++
++namespace facebook::react {
++
++/**
++ * JNI C++ class for module 'NativeRNShare'
++ */
++class JSI_EXPORT NativeRNShareSpecJSI : public JavaTurboModule {
++public:
++  NativeRNShareSpecJSI(const JavaTurboModule::InitParams &params);
++};
++
++
++JSI_EXPORT
++std::shared_ptr<TurboModule> RNShareSpec_ModuleProvider(const std::string &moduleName, const JavaTurboModule::InitParams &params);
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ComponentDescriptors.cpp b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ComponentDescriptors.cpp
+new file mode 100644
+index 0000000..bb6e8c6
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ComponentDescriptors.cpp
+@@ -0,0 +1,22 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateComponentDescriptorCpp.js
++ */
++
++#include <react/renderer/components/RNShareSpec/ComponentDescriptors.h>
++#include <react/renderer/core/ConcreteComponentDescriptor.h>
++#include <react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h>
++
++namespace facebook::react {
++
++void RNShareSpec_registerComponentDescriptorsFromCodegen(
++  std::shared_ptr<const ComponentDescriptorProviderRegistry> registry) {
++
++}
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ComponentDescriptors.h b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ComponentDescriptors.h
+new file mode 100644
+index 0000000..df7583b
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ComponentDescriptors.h
+@@ -0,0 +1,24 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateComponentDescriptorH.js
++ */
++
++#pragma once
++
++#include <react/renderer/components/RNShareSpec/ShadowNodes.h>
++#include <react/renderer/core/ConcreteComponentDescriptor.h>
++#include <react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h>
++
++namespace facebook::react {
++
++
++
++void RNShareSpec_registerComponentDescriptorsFromCodegen(
++  std::shared_ptr<const ComponentDescriptorProviderRegistry> registry);
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/EventEmitters.cpp b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/EventEmitters.cpp
+new file mode 100644
+index 0000000..2984029
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/EventEmitters.cpp
+@@ -0,0 +1,16 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateEventEmitterCpp.js
++ */
++
++#include <react/renderer/components/RNShareSpec/EventEmitters.h>
++
++
++namespace facebook::react {
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/EventEmitters.h b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/EventEmitters.h
+new file mode 100644
+index 0000000..2845a63
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/EventEmitters.h
+@@ -0,0 +1,17 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateEventEmitterH.js
++ */
++#pragma once
++
++#include <react/renderer/components/view/ViewEventEmitter.h>
++
++
++namespace facebook::react {
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/Props.cpp b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/Props.cpp
+new file mode 100644
+index 0000000..ad4c54f
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/Props.cpp
+@@ -0,0 +1,19 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GeneratePropsCpp.js
++ */
++
++#include <react/renderer/components/RNShareSpec/Props.h>
++#include <react/renderer/core/PropsParserContext.h>
++#include <react/renderer/core/propsConversions.h>
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/Props.h b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/Props.h
+new file mode 100644
+index 0000000..870864b
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/Props.h
+@@ -0,0 +1,18 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GeneratePropsH.js
++ */
++#pragma once
++
++
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/RNShareSpecJSI-generated.cpp b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/RNShareSpecJSI-generated.cpp
+new file mode 100644
+index 0000000..b117e5d
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/RNShareSpecJSI-generated.cpp
+@@ -0,0 +1,54 @@
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleCpp.js
++ */
++
++#include "RNShareSpecJSI.h"
++
++namespace facebook::react {
++
++static jsi::Value __hostFunction_NativeRNShareCxxSpecJSI_getConstants(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeRNShareCxxSpecJSI *>(&turboModule)->getConstants(
++    rt
++  );
++}
++static jsi::Value __hostFunction_NativeRNShareCxxSpecJSI_open(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeRNShareCxxSpecJSI *>(&turboModule)->open(
++    rt,
++    count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asObject(rt)
++  );
++}
++static jsi::Value __hostFunction_NativeRNShareCxxSpecJSI_shareSingle(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeRNShareCxxSpecJSI *>(&turboModule)->shareSingle(
++    rt,
++    count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asObject(rt)
++  );
++}
++static jsi::Value __hostFunction_NativeRNShareCxxSpecJSI_isPackageInstalled(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeRNShareCxxSpecJSI *>(&turboModule)->isPackageInstalled(
++    rt,
++    count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asString(rt)
++  );
++}
++static jsi::Value __hostFunction_NativeRNShareCxxSpecJSI_isBase64File(jsi::Runtime &rt, TurboModule &turboModule, const jsi::Value* args, size_t count) {
++  return static_cast<NativeRNShareCxxSpecJSI *>(&turboModule)->isBase64File(
++    rt,
++    count <= 0 ? throw jsi::JSError(rt, "Expected argument in position 0 to be passed") : args[0].asString(rt)
++  );
++}
++
++NativeRNShareCxxSpecJSI::NativeRNShareCxxSpecJSI(std::shared_ptr<CallInvoker> jsInvoker)
++  : TurboModule("RNShare", jsInvoker) {
++  methodMap_["getConstants"] = MethodMetadata {0, __hostFunction_NativeRNShareCxxSpecJSI_getConstants};
++  methodMap_["open"] = MethodMetadata {1, __hostFunction_NativeRNShareCxxSpecJSI_open};
++  methodMap_["shareSingle"] = MethodMetadata {1, __hostFunction_NativeRNShareCxxSpecJSI_shareSingle};
++  methodMap_["isPackageInstalled"] = MethodMetadata {1, __hostFunction_NativeRNShareCxxSpecJSI_isPackageInstalled};
++  methodMap_["isBase64File"] = MethodMetadata {1, __hostFunction_NativeRNShareCxxSpecJSI_isBase64File};
++}
++
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/RNShareSpecJSI.h b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/RNShareSpecJSI.h
+new file mode 100644
+index 0000000..4dd13ab
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/RNShareSpecJSI.h
+@@ -0,0 +1,107 @@
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateModuleH.js
++ */
++
++#pragma once
++
++#include <ReactCommon/TurboModule.h>
++#include <react/bridging/Bridging.h>
++
++namespace facebook::react {
++
++
++  class JSI_EXPORT NativeRNShareCxxSpecJSI : public TurboModule {
++protected:
++  NativeRNShareCxxSpecJSI(std::shared_ptr<CallInvoker> jsInvoker);
++
++public:
++  virtual jsi::Object getConstants(jsi::Runtime &rt) = 0;
++  virtual jsi::Value open(jsi::Runtime &rt, jsi::Object options) = 0;
++  virtual jsi::Value shareSingle(jsi::Runtime &rt, jsi::Object options) = 0;
++  virtual jsi::Value isPackageInstalled(jsi::Runtime &rt, jsi::String packagename) = 0;
++  virtual jsi::Value isBase64File(jsi::Runtime &rt, jsi::String url) = 0;
++
++};
++
++template <typename T>
++class JSI_EXPORT NativeRNShareCxxSpec : public TurboModule {
++public:
++  jsi::Value create(jsi::Runtime &rt, const jsi::PropNameID &propName) override {
++    return delegate_.create(rt, propName);
++  }
++
++  std::vector<jsi::PropNameID> getPropertyNames(jsi::Runtime& runtime) override {
++    return delegate_.getPropertyNames(runtime);
++  }
++
++  static constexpr std::string_view kModuleName = "RNShare";
++
++protected:
++  NativeRNShareCxxSpec(std::shared_ptr<CallInvoker> jsInvoker)
++    : TurboModule(std::string{NativeRNShareCxxSpec::kModuleName}, jsInvoker),
++      delegate_(reinterpret_cast<T*>(this), jsInvoker) {}
++
++
++private:
++  class Delegate : public NativeRNShareCxxSpecJSI {
++  public:
++    Delegate(T *instance, std::shared_ptr<CallInvoker> jsInvoker) :
++      NativeRNShareCxxSpecJSI(std::move(jsInvoker)), instance_(instance) {
++
++    }
++
++    jsi::Object getConstants(jsi::Runtime &rt) override {
++      static_assert(
++          bridging::getParameterCount(&T::getConstants) == 1,
++          "Expected getConstants(...) to have 1 parameters");
++
++      return bridging::callFromJs<jsi::Object>(
++          rt, &T::getConstants, jsInvoker_, instance_);
++    }
++    jsi::Value open(jsi::Runtime &rt, jsi::Object options) override {
++      static_assert(
++          bridging::getParameterCount(&T::open) == 2,
++          "Expected open(...) to have 2 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::open, jsInvoker_, instance_, std::move(options));
++    }
++    jsi::Value shareSingle(jsi::Runtime &rt, jsi::Object options) override {
++      static_assert(
++          bridging::getParameterCount(&T::shareSingle) == 2,
++          "Expected shareSingle(...) to have 2 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::shareSingle, jsInvoker_, instance_, std::move(options));
++    }
++    jsi::Value isPackageInstalled(jsi::Runtime &rt, jsi::String packagename) override {
++      static_assert(
++          bridging::getParameterCount(&T::isPackageInstalled) == 2,
++          "Expected isPackageInstalled(...) to have 2 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::isPackageInstalled, jsInvoker_, instance_, std::move(packagename));
++    }
++    jsi::Value isBase64File(jsi::Runtime &rt, jsi::String url) override {
++      static_assert(
++          bridging::getParameterCount(&T::isBase64File) == 2,
++          "Expected isBase64File(...) to have 2 parameters");
++
++      return bridging::callFromJs<jsi::Value>(
++          rt, &T::isBase64File, jsInvoker_, instance_, std::move(url));
++    }
++
++  private:
++    friend class NativeRNShareCxxSpec;
++    T *instance_;
++  };
++
++  Delegate delegate_;
++};
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ShadowNodes.cpp b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ShadowNodes.cpp
+new file mode 100644
+index 0000000..85789fb
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ShadowNodes.cpp
+@@ -0,0 +1,17 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateShadowNodeCpp.js
++ */
++
++#include <react/renderer/components/RNShareSpec/ShadowNodes.h>
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ShadowNodes.h b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ShadowNodes.h
+new file mode 100644
+index 0000000..f3cf4ba
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/ShadowNodes.h
+@@ -0,0 +1,23 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateShadowNodeH.js
++ */
++
++#pragma once
++
++#include <react/renderer/components/RNShareSpec/EventEmitters.h>
++#include <react/renderer/components/RNShareSpec/Props.h>
++#include <react/renderer/components/RNShareSpec/States.h>
++#include <react/renderer/components/view/ConcreteViewShadowNode.h>
++#include <jsi/jsi.h>
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/States.cpp b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/States.cpp
+new file mode 100644
+index 0000000..1a7a302
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/States.cpp
+@@ -0,0 +1,16 @@
++
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateStateCpp.js
++ */
++#include <react/renderer/components/RNShareSpec/States.h>
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/States.h b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/States.h
+new file mode 100644
+index 0000000..c011ed8
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/jni/react/renderer/components/RNShareSpec/States.h
+@@ -0,0 +1,19 @@
++/**
++ * This code was generated by [react-native-codegen](https://www.npmjs.com/package/react-native-codegen).
++ *
++ * Do not edit this file as changes may cause incorrect behavior and will be lost
++ * once the code is regenerated.
++ *
++ * @generated by codegen project: GenerateStateH.js
++ */
++#pragma once
++
++#ifdef ANDROID
++#include <folly/dynamic.h>
++#endif
++
++namespace facebook::react {
++
++
++
++} // namespace facebook::react
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/generated/source/codegen/schema.json b/node_modules/react-native-share/android/build/generated/source/codegen/schema.json
+new file mode 100644
+index 0000000..0e15da3
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/generated/source/codegen/schema.json
+@@ -0,0 +1,309 @@
++{
++  "modules": {
++    "NativeRNShare": {
++      "type": "NativeModule",
++      "aliasMap": {},
++      "enumMap": {},
++      "spec": {
++        "eventEmitters": [],
++        "methods": [
++          {
++            "name": "getConstants",
++            "optional": false,
++            "typeAnnotation": {
++              "type": "FunctionTypeAnnotation",
++              "returnTypeAnnotation": {
++                "type": "ObjectTypeAnnotation",
++                "properties": [
++                  {
++                    "name": "FACEBOOK",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "FACEBOOKSTORIES",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "TWITTER",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "GOOGLEPLUS",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "WHATSAPP",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "INSTAGRAM",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "INSTAGRAMSTORIES",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "TELEGRAM",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "EMAIL",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "MESSENGER",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "VIBER",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "PAGESMANAGER",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "WHATSAPPBUSINESS",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "PINTEREST",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "LINKEDIN",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "SNAPCHAT",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "SHARE_BACKGROUND_IMAGE",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "SHARE_BACKGROUND_VIDEO",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "SHARE_STICKER_IMAGE",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "SHARE_BACKGROUND_AND_STICKER_IMAGE",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "SMS",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "GENERIC",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  },
++                  {
++                    "name": "DISCORD",
++                    "optional": true,
++                    "typeAnnotation": {
++                      "type": "StringTypeAnnotation"
++                    }
++                  }
++                ]
++              },
++              "params": []
++            }
++          },
++          {
++            "name": "open",
++            "optional": false,
++            "typeAnnotation": {
++              "type": "FunctionTypeAnnotation",
++              "returnTypeAnnotation": {
++                "type": "PromiseTypeAnnotation",
++                "elementType": {
++                  "type": "ObjectTypeAnnotation",
++                  "properties": [
++                    {
++                      "name": "success",
++                      "optional": false,
++                      "typeAnnotation": {
++                        "type": "BooleanTypeAnnotation"
++                      }
++                    },
++                    {
++                      "name": "message",
++                      "optional": false,
++                      "typeAnnotation": {
++                        "type": "StringTypeAnnotation"
++                      }
++                    }
++                  ]
++                }
++              },
++              "params": [
++                {
++                  "name": "options",
++                  "optional": false,
++                  "typeAnnotation": {
++                    "type": "GenericObjectTypeAnnotation"
++                  }
++                }
++              ]
++            }
++          },
++          {
++            "name": "shareSingle",
++            "optional": false,
++            "typeAnnotation": {
++              "type": "FunctionTypeAnnotation",
++              "returnTypeAnnotation": {
++                "type": "PromiseTypeAnnotation",
++                "elementType": {
++                  "type": "ObjectTypeAnnotation",
++                  "properties": [
++                    {
++                      "name": "success",
++                      "optional": false,
++                      "typeAnnotation": {
++                        "type": "BooleanTypeAnnotation"
++                      }
++                    },
++                    {
++                      "name": "message",
++                      "optional": false,
++                      "typeAnnotation": {
++                        "type": "StringTypeAnnotation"
++                      }
++                    }
++                  ]
++                }
++              },
++              "params": [
++                {
++                  "name": "options",
++                  "optional": false,
++                  "typeAnnotation": {
++                    "type": "GenericObjectTypeAnnotation"
++                  }
++                }
++              ]
++            }
++          },
++          {
++            "name": "isPackageInstalled",
++            "optional": false,
++            "typeAnnotation": {
++              "type": "FunctionTypeAnnotation",
++              "returnTypeAnnotation": {
++                "type": "PromiseTypeAnnotation",
++                "elementType": {
++                  "type": "BooleanTypeAnnotation"
++                }
++              },
++              "params": [
++                {
++                  "name": "packagename",
++                  "optional": false,
++                  "typeAnnotation": {
++                    "type": "StringTypeAnnotation"
++                  }
++                }
++              ]
++            }
++          },
++          {
++            "name": "isBase64File",
++            "optional": false,
++            "typeAnnotation": {
++              "type": "FunctionTypeAnnotation",
++              "returnTypeAnnotation": {
++                "type": "PromiseTypeAnnotation",
++                "elementType": {
++                  "type": "BooleanTypeAnnotation"
++                }
++              },
++              "params": [
++                {
++                  "name": "url",
++                  "optional": false,
++                  "typeAnnotation": {
++                    "type": "StringTypeAnnotation"
++                  }
++                }
++              ]
++            }
++          }
++        ]
++      },
++      "moduleName": "RNShare"
++    }
++  }
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml b/node_modules/react-native-share/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..e53fd2a
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="cl.json" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++    <application>
++        <provider
++            android:name="cl.json.RNShareFileProvider"
++            android:authorities="dollar_openBracket_applicationId_closeBracket.rnshare.fileprovider"
++            android:exported="false"
++            android:grantUriPermissions="true" >
++            <meta-data
++                android:name="android.support.FILE_PROVIDER_PATHS"
++                android:resource="@xml/share_download_paths" />
++        </provider>
++    </application>
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json b/node_modules/react-native-share/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+new file mode 100644
+index 0000000..0931ace
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "cl.json",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties b/node_modules/react-native-share/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+new file mode 100644
+index 0000000..1211b1e
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+@@ -0,0 +1,6 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
++coreLibraryDesugaringEnabled=false
+diff --git a/node_modules/react-native-share/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json b/node_modules/react-native-share/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar b/node_modules/react-native-share/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar
+new file mode 100644
+index 0000000..ff6aff0
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar b/node_modules/react-native-share/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar
+new file mode 100644
+index 0000000..e2e6859
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt b/node_modules/react-native-share/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt
+new file mode 100644
+index 0000000..d2ebb51
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt
+@@ -0,0 +1 @@
++int xml share_download_paths 0x0
+diff --git a/node_modules/react-native-share/android/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/xml_share_download_paths.xml.flat b/node_modules/react-native-share/android/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/xml_share_download_paths.xml.flat
+new file mode 100644
+index 0000000..415e1af
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/xml_share_download_paths.xml.flat differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/react-native-share/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..38e3afa
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1,2 @@
++#Fri Feb 07 14:10:58 NPT 2025
++cl.json.react-native-share-main-6\:/xml/share_download_paths.xml=/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/build/intermediates/packaged_res/debug/packageDebugResources/xml/share_download_paths.xml
+diff --git a/node_modules/react-native-share/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/react-native-share/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..5d63eda
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/res"><file name="share_download_paths" path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/res/xml/share_download_paths.xml" qualifiers="" type="xml"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/node_modules/react-native-share/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+new file mode 100644
+index 0000000..43ce3e2
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/debug/jniLibs"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/intermediates/incremental/mergeDebugShaders/merger.xml b/node_modules/react-native-share/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+new file mode 100644
+index 0000000..9724d12
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/debug/shaders"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/intermediates/incremental/packageDebugAssets/merger.xml b/node_modules/react-native-share/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+new file mode 100644
+index 0000000..a2df09a
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/debug/assets"/></dataSet><dataSet config="generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/build/intermediates/shader_assets/debug/compileDebugShaders/out"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/BuildConfig.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/BuildConfig.class
+new file mode 100644
+index 0000000..741e823
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/BuildConfig.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/NativeRNShareSpec.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/NativeRNShareSpec.class
+new file mode 100644
+index 0000000..3485c92
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/NativeRNShareSpec.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShare.class
+new file mode 100644
+index 0000000..86f4190
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareFileProvider.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareFileProvider.class
+new file mode 100644
+index 0000000..8f60687
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareFileProvider.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareImpl$1.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareImpl$1.class
+new file mode 100644
+index 0000000..5128b89
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareImpl$1.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareImpl$SHARES.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareImpl$SHARES.class
+new file mode 100644
+index 0000000..df2483d
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareImpl$SHARES.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareImpl.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareImpl.class
+new file mode 100644
+index 0000000..2a1913e
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNShareImpl.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNSharePackage.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNSharePackage.class
+new file mode 100644
+index 0000000..ff85da2
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNSharePackage.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNSharePathUtil.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNSharePathUtil.class
+new file mode 100644
+index 0000000..e81d356
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/RNSharePathUtil.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/ShareApplication.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/ShareApplication.class
+new file mode 100644
+index 0000000..7a24491
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/ShareApplication.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/ShareFile.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/ShareFile.class
+new file mode 100644
+index 0000000..aa2c544
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/ShareFile.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/ShareFiles.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/ShareFiles.class
+new file mode 100644
+index 0000000..16af7b5
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/ShareFiles.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/DiscordShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/DiscordShare.class
+new file mode 100644
+index 0000000..614ffaf
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/DiscordShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/EmailShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/EmailShare.class
+new file mode 100644
+index 0000000..6672043
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/EmailShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/FacebookPagesManagerShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/FacebookPagesManagerShare.class
+new file mode 100644
+index 0000000..c9ef844
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/FacebookPagesManagerShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/FacebookShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/FacebookShare.class
+new file mode 100644
+index 0000000..4e0c4ab
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/FacebookShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/FacebookStoriesShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/FacebookStoriesShare.class
+new file mode 100644
+index 0000000..e11a2df
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/FacebookStoriesShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/GenericShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/GenericShare.class
+new file mode 100644
+index 0000000..bb8e694
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/GenericShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/GooglePlusShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/GooglePlusShare.class
+new file mode 100644
+index 0000000..bb0423a
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/GooglePlusShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/InstagramShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/InstagramShare.class
+new file mode 100644
+index 0000000..d0ab20e
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/InstagramShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/InstagramStoriesShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/InstagramStoriesShare.class
+new file mode 100644
+index 0000000..03eb800
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/InstagramStoriesShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/LinkedinShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/LinkedinShare.class
+new file mode 100644
+index 0000000..1aac057
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/LinkedinShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/MessengerShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/MessengerShare.class
+new file mode 100644
+index 0000000..e1d6f97
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/MessengerShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/PinterestShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/PinterestShare.class
+new file mode 100644
+index 0000000..efd1bdd
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/PinterestShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/SMSShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/SMSShare.class
+new file mode 100644
+index 0000000..33a5437
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/SMSShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/ShareIntent$1.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/ShareIntent$1.class
+new file mode 100644
+index 0000000..fa3057e
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/ShareIntent$1.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/ShareIntent.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/ShareIntent.class
+new file mode 100644
+index 0000000..6305dc7
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/ShareIntent.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/SingleShareIntent.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/SingleShareIntent.class
+new file mode 100644
+index 0000000..e6d6486
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/SingleShareIntent.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/SnapChatShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/SnapChatShare.class
+new file mode 100644
+index 0000000..079e33f
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/SnapChatShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/TargetChosenReceiver.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/TargetChosenReceiver.class
+new file mode 100644
+index 0000000..39b2a8d
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/TargetChosenReceiver.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/TelegramShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/TelegramShare.class
+new file mode 100644
+index 0000000..26efee4
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/TelegramShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/TwitterShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/TwitterShare.class
+new file mode 100644
+index 0000000..635b29d
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/TwitterShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/ViberShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/ViberShare.class
+new file mode 100644
+index 0000000..57a5538
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/ViberShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/WhatsAppBusinessShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/WhatsAppBusinessShare.class
+new file mode 100644
+index 0000000..6bfaa67
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/WhatsAppBusinessShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/WhatsAppShare.class b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/WhatsAppShare.class
+new file mode 100644
+index 0000000..5b2ec1f
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/cl/json/social/WhatsAppShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt b/node_modules/react-native-share/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+new file mode 100644
+index 0000000..418aefc
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+@@ -0,0 +1,3 @@
++R_DEF: Internal format may change without notice
++local
++xml share_download_paths
+diff --git a/node_modules/react-native-share/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt b/node_modules/react-native-share/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..057a7a7
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,28 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="cl.json" >
++4
++5    <uses-sdk android:minSdkVersion="24" />
++6
++7    <application>
++7-->/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:4:5-14:19
++8        <provider
++8-->/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:5:9-13:20
++9            android:name="cl.json.RNShareFileProvider"
++9-->/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:6:13-48
++10            android:authorities="${applicationId}.rnshare.fileprovider"
++10-->/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:7:13-72
++11            android:exported="false"
++11-->/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:8:13-37
++12            android:grantUriPermissions="true" >
++12-->/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:9:13-47
++13            <meta-data
++13-->/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:10:13-12:64
++14                android:name="android.support.FILE_PROVIDER_PATHS"
++14-->/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:11:17-67
++15                android:resource="@xml/share_download_paths" />
++15-->/Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:12:17-61
++16        </provider>
++17    </application>
++18
++19</manifest>
+diff --git a/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml b/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+new file mode 100644
+index 0000000..223c9f3
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="cl.json" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++    <application>
++        <provider
++            android:name="cl.json.RNShareFileProvider"
++            android:authorities="${applicationId}.rnshare.fileprovider"
++            android:exported="false"
++            android:grantUriPermissions="true" >
++            <meta-data
++                android:name="android.support.FILE_PROVIDER_PATHS"
++                android:resource="@xml/share_download_paths" />
++        </provider>
++    </application>
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json b/node_modules/react-native-share/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt b/node_modules/react-native-share/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+new file mode 100644
+index 0000000..08f4ebe
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+@@ -0,0 +1 @@
++0 Warning/Error
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/android/build/intermediates/packaged_res/debug/packageDebugResources/xml/share_download_paths.xml b/node_modules/react-native-share/android/build/intermediates/packaged_res/debug/packageDebugResources/xml/share_download_paths.xml
+new file mode 100644
+index 0000000..47bce31
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/packaged_res/debug/packageDebugResources/xml/share_download_paths.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<paths xmlns:android="http://schemas.android.com/apk/res/android">
++    <external-path name="rnshare1" path="Download/" />
++    <cache-path name="rnshare2" path="/" />
++    <root-path name="rnshare_sdcard" path="." />
++</paths>
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/BuildConfig.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/BuildConfig.class
+new file mode 100644
+index 0000000..741e823
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/BuildConfig.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/NativeRNShareSpec.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/NativeRNShareSpec.class
+new file mode 100644
+index 0000000..3485c92
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/NativeRNShareSpec.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShare.class
+new file mode 100644
+index 0000000..86f4190
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareFileProvider.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareFileProvider.class
+new file mode 100644
+index 0000000..8f60687
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareFileProvider.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareImpl$1.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareImpl$1.class
+new file mode 100644
+index 0000000..5128b89
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareImpl$1.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareImpl$SHARES.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareImpl$SHARES.class
+new file mode 100644
+index 0000000..df2483d
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareImpl$SHARES.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareImpl.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareImpl.class
+new file mode 100644
+index 0000000..2a1913e
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNShareImpl.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNSharePackage.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNSharePackage.class
+new file mode 100644
+index 0000000..ff85da2
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNSharePackage.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNSharePathUtil.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNSharePathUtil.class
+new file mode 100644
+index 0000000..e81d356
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/RNSharePathUtil.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/ShareApplication.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/ShareApplication.class
+new file mode 100644
+index 0000000..7a24491
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/ShareApplication.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/ShareFile.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/ShareFile.class
+new file mode 100644
+index 0000000..aa2c544
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/ShareFile.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/ShareFiles.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/ShareFiles.class
+new file mode 100644
+index 0000000..16af7b5
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/ShareFiles.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/DiscordShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/DiscordShare.class
+new file mode 100644
+index 0000000..614ffaf
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/DiscordShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/EmailShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/EmailShare.class
+new file mode 100644
+index 0000000..6672043
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/EmailShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/FacebookPagesManagerShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/FacebookPagesManagerShare.class
+new file mode 100644
+index 0000000..c9ef844
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/FacebookPagesManagerShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/FacebookShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/FacebookShare.class
+new file mode 100644
+index 0000000..4e0c4ab
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/FacebookShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/FacebookStoriesShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/FacebookStoriesShare.class
+new file mode 100644
+index 0000000..e11a2df
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/FacebookStoriesShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/GenericShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/GenericShare.class
+new file mode 100644
+index 0000000..bb8e694
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/GenericShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/GooglePlusShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/GooglePlusShare.class
+new file mode 100644
+index 0000000..bb0423a
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/GooglePlusShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/InstagramShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/InstagramShare.class
+new file mode 100644
+index 0000000..d0ab20e
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/InstagramShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/InstagramStoriesShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/InstagramStoriesShare.class
+new file mode 100644
+index 0000000..03eb800
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/InstagramStoriesShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/LinkedinShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/LinkedinShare.class
+new file mode 100644
+index 0000000..1aac057
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/LinkedinShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/MessengerShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/MessengerShare.class
+new file mode 100644
+index 0000000..e1d6f97
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/MessengerShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/PinterestShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/PinterestShare.class
+new file mode 100644
+index 0000000..efd1bdd
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/PinterestShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/SMSShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/SMSShare.class
+new file mode 100644
+index 0000000..33a5437
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/SMSShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/ShareIntent$1.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/ShareIntent$1.class
+new file mode 100644
+index 0000000..fa3057e
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/ShareIntent$1.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/ShareIntent.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/ShareIntent.class
+new file mode 100644
+index 0000000..6305dc7
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/ShareIntent.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/SingleShareIntent.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/SingleShareIntent.class
+new file mode 100644
+index 0000000..e6d6486
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/SingleShareIntent.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/SnapChatShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/SnapChatShare.class
+new file mode 100644
+index 0000000..079e33f
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/SnapChatShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/TargetChosenReceiver.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/TargetChosenReceiver.class
+new file mode 100644
+index 0000000..39b2a8d
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/TargetChosenReceiver.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/TelegramShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/TelegramShare.class
+new file mode 100644
+index 0000000..26efee4
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/TelegramShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/TwitterShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/TwitterShare.class
+new file mode 100644
+index 0000000..635b29d
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/TwitterShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/ViberShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/ViberShare.class
+new file mode 100644
+index 0000000..57a5538
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/ViberShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/WhatsAppBusinessShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/WhatsAppBusinessShare.class
+new file mode 100644
+index 0000000..6bfaa67
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/WhatsAppBusinessShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/WhatsAppShare.class b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/WhatsAppShare.class
+new file mode 100644
+index 0000000..5b2ec1f
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/cl/json/social/WhatsAppShare.class differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar
+new file mode 100644
+index 0000000..c7a3126
+Binary files /dev/null and b/node_modules/react-native-share/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar differ
+diff --git a/node_modules/react-native-share/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt b/node_modules/react-native-share/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+new file mode 100644
+index 0000000..74ca863
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+@@ -0,0 +1,2 @@
++cl.json
++xml share_download_paths
+diff --git a/node_modules/react-native-share/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/react-native-share/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..c06f436
+--- /dev/null
++++ b/node_modules/react-native-share/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,35 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:1:1-15:12
++INJECTED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:1:1-15:12
++	package
++		ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:2:5-22
++		INJECTED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:1:11-69
++application
++ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:4:5-14:19
++provider#cl.json.RNShareFileProvider
++ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:5:9-13:20
++	android:grantUriPermissions
++		ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:9:13-47
++	android:authorities
++		ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:7:13-72
++	android:exported
++		ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:8:13-37
++	android:name
++		ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:6:13-48
++meta-data#android.support.FILE_PROVIDER_PATHS
++ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:10:13-12:64
++	android:resource
++		ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:12:17-61
++	android:name
++		ADDED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml:11:17-67
++uses-sdk
++INJECTED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml
++INJECTED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/ashokkarki/Yarsha/node_modules/react-native-share/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/react-native-share/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/react-native-share/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..d29f68d
+Binary files /dev/null and b/node_modules/react-native-share/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
+diff --git a/node_modules/react-native-share/ios/InstagramStories.m b/node_modules/react-native-share/ios/InstagramStories.m
+index 1de1efd..fd2c2c7 100644
+--- a/node_modules/react-native-share/ios/InstagramStories.m
++++ b/node_modules/react-native-share/ios/InstagramStories.m
+@@ -85,63 +85,50 @@ - (void)shareSingle:(NSDictionary *)options
+ 
+     if(![options[@"backgroundVideo"] isEqual:[NSNull null]] && options[@"backgroundVideo"] != nil) {
+         NSURL *backgroundVideoURL = [RCTConvert NSURL:options[@"backgroundVideo"]];
++        NSString *urlString = backgroundVideoURL.absoluteString;
++        NSURLComponents *components = [[NSURLComponents alloc] initWithString:urlString];
++        NSString *assetId = nil;
++
++        // Get asset ID from URL
++        for (NSURLQueryItem *item in components.queryItems) {
++           if ([item.name isEqualToString:@"id"]) {
++               assetId = item.value;
++               break;
++           }
++        }
+ 
+-        if ([backgroundVideoURL.scheme isEqualToString:@"file"]) {
+-            // Handle local file
+-            NSData *videoData = [NSData dataWithContentsOfURL:backgroundVideoURL];
+-            if (videoData) {
+-                [items setObject:videoData forKey:@"com.instagram.sharedSticker.backgroundVideo"];
+-                [self openInstagramWithItems:items urlScheme:urlScheme resolve:resolve];
+-            } else {
+-                NSLog(@"Failed to read local video file");
+-                [self openInstagramWithItems:items urlScheme:urlScheme resolve:resolve];
+-            }
+-        } else {
+-            NSString *urlString = backgroundVideoURL.absoluteString;
+-            NSURLComponents *components = [[NSURLComponents alloc] initWithString:urlString];
+-            NSString *assetId = nil;
+-
+-            // Get asset ID from URL
+-            for (NSURLQueryItem *item in components.queryItems) {
+-                if ([item.name isEqualToString:@"id"]) {
+-                    assetId = item.value;
+-                    break;
+-                }
+-            }
+-
+-            if (assetId) {
+-                // Fetch the asset
+-                PHFetchResult *fetchResult = [PHAsset fetchAssetsWithLocalIdentifiers:@[assetId] options:nil];
+-                PHAsset *asset = fetchResult.firstObject;
+-
+-                if (asset) {
+-                    PHVideoRequestOptions *options = [[PHVideoRequestOptions alloc] init];
+-                    options.networkAccessAllowed = YES;
+-                    options.deliveryMode = PHVideoRequestOptionsDeliveryModeHighQualityFormat;
+-
+-                    [[PHImageManager defaultManager] requestAVAssetForVideo:asset
+-                                                                    options:options
+-                                                            resultHandler:^(AVAsset * _Nullable avAsset, AVAudioMix * _Nullable audioMix, NSDictionary * _Nullable info) {
+-                        if ([avAsset isKindOfClass:[AVURLAsset class]]) {
+-                            AVURLAsset *urlAsset = (AVURLAsset *)avAsset;
+-                            NSData *video = [NSData dataWithContentsOfURL:urlAsset.URL];
+-
+-                            dispatch_async(dispatch_get_main_queue(), ^{
+-                                if (video) {
+-                                    [items setObject:video forKey:@"com.instagram.sharedSticker.backgroundVideo"];
+-                                    [self openInstagramWithItems:items urlScheme:urlScheme resolve:resolve];
+-                                } else {
+-                                    NSLog(@"Failed to convert video asset to NSData");
+-                                    [self openInstagramWithItems:items urlScheme:urlScheme resolve:resolve];
+-                                }
+-                            });
+-                        }
+-                    }];
+-                } else {
+-                    NSLog(@"Could not find asset with ID: %@", assetId);
+-                    [self openInstagramWithItems:items urlScheme:urlScheme resolve:resolve];
+-                }
+-            }
++        if (assetId) {
++           // Fetch the asset
++           PHFetchResult *fetchResult = [PHAsset fetchAssetsWithLocalIdentifiers:@[assetId] options:nil];
++           PHAsset *asset = fetchResult.firstObject;
++           
++           if (asset) {
++               PHVideoRequestOptions *options = [[PHVideoRequestOptions alloc] init];
++               options.networkAccessAllowed = YES;
++               options.deliveryMode = PHVideoRequestOptionsDeliveryModeHighQualityFormat;
++               
++               [[PHImageManager defaultManager] requestAVAssetForVideo:asset
++                                                             options:options
++                                                       resultHandler:^(AVAsset * _Nullable avAsset, AVAudioMix * _Nullable audioMix, NSDictionary * _Nullable info) {
++                   if ([avAsset isKindOfClass:[AVURLAsset class]]) {
++                       AVURLAsset *urlAsset = (AVURLAsset *)avAsset;
++                       NSData *video = [NSData dataWithContentsOfURL:urlAsset.URL];
++                       
++                       dispatch_async(dispatch_get_main_queue(), ^{
++                           if (video) {
++                               [items setObject:video forKey:@"com.instagram.sharedSticker.backgroundVideo"];
++                               [self openInstagramWithItems:items urlScheme:urlScheme resolve:resolve];
++                           } else {
++                               NSLog(@"Failed to convert video asset to NSData");
++                               [self openInstagramWithItems:items urlScheme:urlScheme resolve:resolve];
++                           }
++                       });
++                   }
++               }];
++           } else {
++               NSLog(@"Could not find asset with ID: %@", assetId);
++               [self openInstagramWithItems:items urlScheme:urlScheme resolve:resolve];
++           }
+         }
+     } else {
+         [self openInstagramWithItems:items urlScheme:urlScheme resolve:resolve];
+diff --git a/node_modules/react-native-share/lib/commonjs/components/ShareSheet.js b/node_modules/react-native-share/lib/commonjs/components/ShareSheet.js
+index 1860c01..8dabf8c 100644
+--- a/node_modules/react-native-share/lib/commonjs/components/ShareSheet.js
++++ b/node_modules/react-native-share/lib/commonjs/components/ShareSheet.js
+@@ -26,9 +26,9 @@ const ShareSheet = ({
+     return false;
+   }, [visible, onCancel]);
+   React.useEffect(() => {
+-    const subscription = _reactNative.BackHandler.addEventListener('hardwareBackPress', backButtonHandler);
++    const subscribeBackhandler = _reactNative.BackHandler.addEventListener('hardwareBackPress', backButtonHandler);
+     return () => {
+-      subscription.remove();
++      subscribeBackhandler.remove();
+     };
+   }, [backButtonHandler]);
+   return /*#__PURE__*/React.createElement(_Overlay.default, {
+diff --git a/node_modules/react-native-share/lib/commonjs/components/ShareSheet.js.map b/node_modules/react-native-share/lib/commonjs/components/ShareSheet.js.map
+index 8bb35b4..1da1424 100644
+--- a/node_modules/react-native-share/lib/commonjs/components/ShareSheet.js.map
++++ b/node_modules/react-native-share/lib/commonjs/components/ShareSheet.js.map
+@@ -1 +1 @@
+-{"version":3,"names":["React","_interopRequireWildcard","require","_reactNative","_Overlay","_interopRequireDefault","_Sheet","obj","__esModule","default","_getRequireWildcardCache","e","WeakMap","r","t","has","get","n","__proto__","a","Object","defineProperty","getOwnPropertyDescriptor","u","prototype","hasOwnProperty","call","i","set","ShareSheet","style","overlayStyle","visible","onCancel","children","backButtonHandler","useCallback","useEffect","subscription","BackHandler","addEventListener","remove","createElement","View","styles","actionSheetContainer","TouchableOpacity","button","onPress","buttonContainer","StyleSheet","create","backgroundColor","flex","justifyContent","paddingBottom","paddingTop","overflow","_default","exports"],"sourceRoot":"../../../src","sources":["components/ShareSheet.tsx"],"mappings":"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"}
++{"version":3,"names":["React","_interopRequireWildcard","require","_reactNative","_Overlay","_interopRequireDefault","_Sheet","obj","__esModule","default","_getRequireWildcardCache","e","WeakMap","r","t","has","get","n","__proto__","a","Object","defineProperty","getOwnPropertyDescriptor","u","prototype","hasOwnProperty","call","i","set","ShareSheet","style","overlayStyle","visible","onCancel","children","backButtonHandler","useCallback","useEffect","BackHandler","addEventListener","removeEventListener","createElement","View","styles","actionSheetContainer","TouchableOpacity","button","onPress","buttonContainer","StyleSheet","create","backgroundColor","flex","justifyContent","paddingBottom","paddingTop","overflow","_default","exports"],"sourceRoot":"../../../src","sources":["components/ShareSheet.tsx"],"mappings":"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"}
+diff --git a/node_modules/react-native-share/lib/commonjs/types.js.map b/node_modules/react-native-share/lib/commonjs/types.js.map
+index 9fc6c6a..db39b9f 100644
+--- a/node_modules/react-native-share/lib/commonjs/types.js.map
++++ b/node_modules/react-native-share/lib/commonjs/types.js.map
+@@ -1 +1 @@
+-{"version":3,"names":["Social","exports","ShareAsset"],"sourceRoot":"../../src","sources":["types.ts"],"mappings":";;;;;;IAAYA,MAAM,GAAAC,OAAA,CAAAD,MAAA,0BAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAAA,OAANA,MAAM;AAAA;AAAA,IAqBNE,UAAU,GAAAD,OAAA,CAAAC,UAAA,0BAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAA,OAAVA,UAAU;AAAA,OA6GH"}
++{"version":3,"names":["Social","exports","ShareAsset"],"sourceRoot":"../../src","sources":["types.ts"],"mappings":";;;;;;IAAYA,MAAM,GAAAC,OAAA,CAAAD,MAAA,0BAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAAA,OAANA,MAAM;AAAA;AAAA,IAqBNE,UAAU,GAAAD,OAAA,CAAAC,UAAA,0BAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAA,OAAVA,UAAU;AAAA,OA4GH"}
+diff --git a/node_modules/react-native-share/lib/module/components/ShareSheet.js b/node_modules/react-native-share/lib/module/components/ShareSheet.js
+index ea4b873..4cadf59 100644
+--- a/node_modules/react-native-share/lib/module/components/ShareSheet.js
++++ b/node_modules/react-native-share/lib/module/components/ShareSheet.js
+@@ -17,9 +17,9 @@ const ShareSheet = ({
+     return false;
+   }, [visible, onCancel]);
+   React.useEffect(() => {
+-    const subscription = BackHandler.addEventListener('hardwareBackPress', backButtonHandler);
++   const subscribeBackhandler =  BackHandler.addEventListener('hardwareBackPress', backButtonHandler);
+     return () => {
+-      subscription.remove();
++      subscribeBackhandler.remove()
+     };
+   }, [backButtonHandler]);
+   return /*#__PURE__*/React.createElement(Overlay, {
+diff --git a/node_modules/react-native-share/lib/module/components/ShareSheet.js.map b/node_modules/react-native-share/lib/module/components/ShareSheet.js.map
+index 69c69c2..8a2943c 100644
+--- a/node_modules/react-native-share/lib/module/components/ShareSheet.js.map
++++ b/node_modules/react-native-share/lib/module/components/ShareSheet.js.map
+@@ -1 +1 @@
+-{"version":3,"names":["React","View","TouchableOpacity","BackHandler","StyleSheet","Overlay","Sheet","ShareSheet","style","overlayStyle","visible","onCancel","children","backButtonHandler","useCallback","useEffect","subscription","addEventListener","remove","createElement","styles","actionSheetContainer","button","onPress","buttonContainer","create","backgroundColor","flex","justifyContent","paddingBottom","paddingTop","overflow"],"sourceRoot":"../../../src","sources":["components/ShareSheet.tsx"],"mappings":"AAAA,OAAO,KAAKA,KAAK,MAAM,OAAO;AAC9B,SACEC,IAAI,EACJC,gBAAgB,EAChBC,WAAW,EAGXC,UAAU,QACL,cAAc;AAErB,OAAOC,OAAO,MAAM,WAAW;AAC/B,OAAOC,KAAK,MAAM,SAAS;AAS3B,MAAMC,UAA8D,GAAGA,CAAC;EACtEC,KAAK,GAAG,CAAC,CAAC;EACVC,YAAY,GAAG,CAAC,CAAC;EACjBC,OAAO;EACPC,QAAQ;EACRC;AACF,CAAC,KAAK;EACJ,MAAMC,iBAAiB,GAAGb,KAAK,CAACc,WAAW,CAAC,MAAM;IAChD,IAAIJ,OAAO,EAAE;MACXC,QAAQ,CAAC,CAAC;MACV,OAAO,IAAI;IACb;IACA,OAAO,KAAK;EACd,CAAC,EAAE,CAACD,OAAO,EAAEC,QAAQ,CAAC,CAAC;EAEvBX,KAAK,CAACe,SAAS,CAAC,MAAM;IACpB,MAAMC,YAAY,GAAGb,WAAW,CAACc,gBAAgB,CAAC,mBAAmB,EAAEJ,iBAAiB,CAAC;IACzF,OAAO,MAAM;MACXG,YAAY,CAACE,MAAM,CAAC,CAAC;IACvB,CAAC;EACH,CAAC,EAAE,CAACL,iBAAiB,CAAC,CAAC;EAEvB,oBACEb,KAAA,CAAAmB,aAAA,CAACd,OAAO;IAACK,OAAO,EAAEA;EAAQ,gBACxBV,KAAA,CAAAmB,aAAA,CAAClB,IAAI;IAACO,KAAK,EAAE,CAACY,MAAM,CAACC,oBAAoB,EAAEZ,YAAY;EAAE,gBACvDT,KAAA,CAAAmB,aAAA,CAACjB,gBAAgB;IAACM,KAAK,EAAEY,MAAM,CAACE,MAAO;IAACC,OAAO,EAAEZ;EAAS,CAAE,CAAC,eAC7DX,KAAA,CAAAmB,aAAA,CAACb,KAAK;IAACI,OAAO,EAAEA;EAAQ,gBACtBV,KAAA,CAAAmB,aAAA,CAAClB,IAAI;IAACO,KAAK,EAAE,CAACY,MAAM,CAACI,eAAe,EAAEhB,KAAK;EAAE,GAAEI,QAAe,CACzD,CACH,CACC,CAAC;AAEd,CAAC;AAED,MAAMQ,MAAM,GAAGhB,UAAU,CAACqB,MAAM,CAAC;EAC/BJ,oBAAoB,EAAE;IACpBK,eAAe,EAAE,oBAAoB;IACrCC,IAAI,EAAE,CAAC;IACPC,cAAc,EAAE,UAAU;IAC1BC,aAAa,EAAE,CAAC;IAChBC,UAAU,EAAE;EACd,CAAC;EACDN,eAAe,EAAE;IACfE,eAAe,EAAE,OAAO;IACxBK,QAAQ,EAAE,QAAQ;IAClBF,aAAa,EAAE,CAAC;IAChBC,UAAU,EAAE;EACd,CAAC;EACDR,MAAM,EAAE;IACNK,IAAI,EAAE;EACR;AACF,CAAC,CAAC;AAEF,eAAepB,UAAU"}
++{"version":3,"names":["React","View","TouchableOpacity","BackHandler","StyleSheet","Overlay","Sheet","ShareSheet","style","overlayStyle","visible","onCancel","children","backButtonHandler","useCallback","useEffect","addEventListener","removeEventListener","createElement","styles","actionSheetContainer","button","onPress","buttonContainer","create","backgroundColor","flex","justifyContent","paddingBottom","paddingTop","overflow"],"sourceRoot":"../../../src","sources":["components/ShareSheet.tsx"],"mappings":"AAAA,OAAO,KAAKA,KAAK,MAAM,OAAO;AAC9B,SACEC,IAAI,EACJC,gBAAgB,EAChBC,WAAW,EAGXC,UAAU,QACL,cAAc;AAErB,OAAOC,OAAO,MAAM,WAAW;AAC/B,OAAOC,KAAK,MAAM,SAAS;AAS3B,MAAMC,UAA8D,GAAGA,CAAC;EACtEC,KAAK,GAAG,CAAC,CAAC;EACVC,YAAY,GAAG,CAAC,CAAC;EACjBC,OAAO;EACPC,QAAQ;EACRC;AACF,CAAC,KAAK;EACJ,MAAMC,iBAAiB,GAAGb,KAAK,CAACc,WAAW,CAAC,MAAM;IAChD,IAAIJ,OAAO,EAAE;MACXC,QAAQ,CAAC,CAAC;MACV,OAAO,IAAI;IACb;IACA,OAAO,KAAK;EACd,CAAC,EAAE,CAACD,OAAO,EAAEC,QAAQ,CAAC,CAAC;EAEvBX,KAAK,CAACe,SAAS,CAAC,MAAM;IACpBZ,WAAW,CAACa,gBAAgB,CAAC,mBAAmB,EAAEH,iBAAiB,CAAC;IACpE,OAAO,MAAM;MACXV,WAAW,CAACc,mBAAmB,CAAC,mBAAmB,EAAEJ,iBAAiB,CAAC;IACzE,CAAC;EACH,CAAC,EAAE,CAACA,iBAAiB,CAAC,CAAC;EAEvB,oBACEb,KAAA,CAAAkB,aAAA,CAACb,OAAO;IAACK,OAAO,EAAEA;EAAQ,gBACxBV,KAAA,CAAAkB,aAAA,CAACjB,IAAI;IAACO,KAAK,EAAE,CAACW,MAAM,CAACC,oBAAoB,EAAEX,YAAY;EAAE,gBACvDT,KAAA,CAAAkB,aAAA,CAAChB,gBAAgB;IAACM,KAAK,EAAEW,MAAM,CAACE,MAAO;IAACC,OAAO,EAAEX;EAAS,CAAE,CAAC,eAC7DX,KAAA,CAAAkB,aAAA,CAACZ,KAAK;IAACI,OAAO,EAAEA;EAAQ,gBACtBV,KAAA,CAAAkB,aAAA,CAACjB,IAAI;IAACO,KAAK,EAAE,CAACW,MAAM,CAACI,eAAe,EAAEf,KAAK;EAAE,GAAEI,QAAe,CACzD,CACH,CACC,CAAC;AAEd,CAAC;AAED,MAAMO,MAAM,GAAGf,UAAU,CAACoB,MAAM,CAAC;EAC/BJ,oBAAoB,EAAE;IACpBK,eAAe,EAAE,oBAAoB;IACrCC,IAAI,EAAE,CAAC;IACPC,cAAc,EAAE,UAAU;IAC1BC,aAAa,EAAE,CAAC;IAChBC,UAAU,EAAE;EACd,CAAC;EACDN,eAAe,EAAE;IACfE,eAAe,EAAE,OAAO;IACxBK,QAAQ,EAAE,QAAQ;IAClBF,aAAa,EAAE,CAAC;IAChBC,UAAU,EAAE;EACd,CAAC;EACDR,MAAM,EAAE;IACNK,IAAI,EAAE;EACR;AACF,CAAC,CAAC;AAEF,eAAenB,UAAU"}
+diff --git a/node_modules/react-native-share/lib/module/types.js.map b/node_modules/react-native-share/lib/module/types.js.map
+index 63fada4..2127fb6 100644
+--- a/node_modules/react-native-share/lib/module/types.js.map
++++ b/node_modules/react-native-share/lib/module/types.js.map
+@@ -1 +1 @@
+-{"version":3,"names":["Social","ShareAsset"],"sourceRoot":"../../src","sources":["types.ts"],"mappings":"AAAA,WAAYA,MAAM,0BAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAAA,OAANA,MAAM;AAAA;AAqBlB,WAAYC,UAAU,0BAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAA,OAAVA,UAAU;AAAA;;AA6GH"}
++{"version":3,"names":["Social","ShareAsset"],"sourceRoot":"../../src","sources":["types.ts"],"mappings":"AAAA,WAAYA,MAAM,0BAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAANA,MAAM;EAAA,OAANA,MAAM;AAAA;AAqBlB,WAAYC,UAAU,0BAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAVA,UAAU;EAAA,OAAVA,UAAU;AAAA;;AA4GH"}
+diff --git a/node_modules/react-native-share/lib/typescript/types.d.ts b/node_modules/react-native-share/lib/typescript/types.d.ts
+index bf0ce7a..c8dff83 100644
+--- a/node_modules/react-native-share/lib/typescript/types.d.ts
++++ b/node_modules/react-native-share/lib/typescript/types.d.ts
+@@ -32,7 +32,6 @@ export interface LinkMetadata {
+     image?: string;
+     remoteVideoUrl?: string;
+     video?: string;
+-    base64Icon?: string;
+ }
+ export interface ActivityItem {
+     type: 'text' | 'url';
+diff --git a/node_modules/react-native-share/lib/typescript/types.d.ts.map b/node_modules/react-native-share/lib/typescript/types.d.ts.map
+index 6c9e80d..a096bbe 100644
+--- a/node_modules/react-native-share/lib/typescript/types.d.ts.map
++++ b/node_modules/react-native-share/lib/typescript/types.d.ts.map
+@@ -1 +1 @@
+-{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../src/types.ts"],"names":[],"mappings":"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"}
+\ No newline at end of file
++{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../src/types.ts"],"names":[],"mappings":"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"}
+\ No newline at end of file
+diff --git a/node_modules/react-native-share/plugin/build/index.d.ts b/node_modules/react-native-share/plugin/build/index.d.ts
+index d04f411..cb0ff5c 100644
+--- a/node_modules/react-native-share/plugin/build/index.d.ts
++++ b/node_modules/react-native-share/plugin/build/index.d.ts
+@@ -1,7 +1 @@
+-import { ExportedConfig } from '@expo/config-plugins';
+-declare const _default: (config: ExportedConfig, props: {
+-    enableBase64ShareAndroid?: boolean;
+-    android?: string[];
+-    ios?: string[];
+-}) => any;
+-export default _default;
++export {};
+diff --git a/node_modules/react-native-share/plugin/build/index.js b/node_modules/react-native-share/plugin/build/index.js
+index 60a6fbc..08e398a 100644
+--- a/node_modules/react-native-share/plugin/build/index.js
++++ b/node_modules/react-native-share/plugin/build/index.js
+@@ -1,42 +1,78 @@
+ "use strict";
+ Object.defineProperty(exports, "__esModule", { value: true });
+-const expo_build_properties_1 = require("expo-build-properties");
++const config_plugins_1 = require("@expo/config-plugins");
++// eslint-disable-next-line import/no-commonjs, @typescript-eslint/no-var-requires
++const pkg = require('../../package.json');
+ /**
+- * Handles for edge case when LSApplicationQueriesSchemes is an object or undefined.
++ * @type {import('./types').ManifestQueries}
++ * what we are trying to add:
++ * <queries>
++    <package android:name="com.facebook.katana"/>
++    <package android:name="com.instagram.android"/>
++    <package android:name="com.twitter.android"/>
++    <package android:name="com.zhiliaoapp.musically"/>
++    <intent></intent>
++      <action android:name="android.intent.action.VIEW"/>
++      <category android:name="android.intent.category.BROWSABLE"/>
++      <data android:scheme="https"/>
++    </intent>
++  </queries>
+  */
+-const getIOSQuerySchemes = (config) => {
+-    return Array.isArray(config.ios?.infoPlist?.LSApplicationQueriesSchemes)
+-        ? config.ios?.infoPlist?.LSApplicationQueriesSchemes ?? []
+-        : [];
++/**
++ * @param {import('@expo/config-plugins').ExportedConfig} config
++ */
++const withAndroidManifestService = (config, props) => {
++    return (0, config_plugins_1.withAndroidManifest)(config, (config) => {
++        config.modResults.manifest = {
++            ...config.modResults.manifest,
++            queries: {
++                package: props?.android?.map((social) => ({
++                    $: {
++                        'android:name': social,
++                    },
++                })),
++                intent: [
++                    {
++                        action: {
++                            $: {
++                                'android:name': 'android.intent.action.VIEW',
++                            },
++                        },
++                        category: {
++                            $: {
++                                'android:name': 'android.intent.category.BROWSABLE',
++                            },
++                        },
++                        data: {
++                            $: {
++                                'android:scheme': 'https',
++                            },
++                        },
++                    },
++                ],
++            },
++        };
++        return config;
++    });
+ };
+-exports.default = (config, props) => {
+-    return (0, expo_build_properties_1.withBuildProperties)({
++const withInfoPlist = (config, props) => {
++    return {
+         ...config,
+-        android: {
+-            ...config.android,
+-            ...(props.enableBase64ShareAndroid
+-                ? {
+-                    permissions: [
+-                        ...new Set([
+-                            ...(config.android?.permissions ?? []),
+-                            'android.permission.WRITE_EXTERNAL_STORAGE',
+-                        ]),
+-                    ],
+-                }
+-                : {}),
+-        },
+         ios: {
+             ...config.ios,
+             infoPlist: {
+                 ...config.ios?.infoPlist,
+-                LSApplicationQueriesSchemes: [...getIOSQuerySchemes(config), ...(props?.ios ?? [])],
+-            },
+-        },
+-    }, {
+-        android: {
+-            manifestQueries: {
+-                package: props.android ?? [],
++                LSApplicationQueriesSchemes: config.ios?.infoPlist?.LSApplicationQueriesSchemes
++                    ? [...config.ios.infoPlist.LSApplicationQueriesSchemes, ...props.ios]
++                    : props.ios,
+             },
+         },
+-    });
++    };
+ };
++function withSocialShare(config, props) {
++    config = withAndroidManifestService(config, props); // Android
++    config = withInfoPlist(config, props); // iOS
++    return config;
++}
++// eslint-disable-next-line import/no-commonjs
++module.exports = (0, config_plugins_1.createRunOncePlugin)(withSocialShare, pkg.name, pkg.version);
+diff --git a/node_modules/react-native-share/plugin/src/index.ts b/node_modules/react-native-share/plugin/src/index.ts
+index 1530810..3a89f03 100644
+--- a/node_modules/react-native-share/plugin/src/index.ts
++++ b/node_modules/react-native-share/plugin/src/index.ts
+@@ -1,53 +1,93 @@
+-import { ExportedConfig } from '@expo/config-plugins';
+-import { withBuildProperties } from 'expo-build-properties';
++import {
++  withAndroidManifest,
++  createRunOncePlugin,
++  ExportedConfigWithProps,
++  ExportedConfig,
++} from '@expo/config-plugins';
++
++// eslint-disable-next-line import/no-commonjs, @typescript-eslint/no-var-requires
++const pkg = require('../../package.json');
+ 
+ /**
+- * Handles for edge case when LSApplicationQueriesSchemes is an object or undefined.
++ * @type {import('./types').ManifestQueries}
++ * what we are trying to add:
++ * <queries>
++    <package android:name="com.facebook.katana"/>
++    <package android:name="com.instagram.android"/>
++    <package android:name="com.twitter.android"/>
++    <package android:name="com.zhiliaoapp.musically"/>
++    <intent></intent>
++      <action android:name="android.intent.action.VIEW"/>
++      <category android:name="android.intent.category.BROWSABLE"/>
++      <data android:scheme="https"/>
++    </intent>
++  </queries>
+  */
+-const getIOSQuerySchemes = (config: ExportedConfig): string[] => {
+-  return Array.isArray(config.ios?.infoPlist?.LSApplicationQueriesSchemes)
+-    ? config.ios?.infoPlist?.LSApplicationQueriesSchemes ?? []
+-    : [];
+-};
+ 
+-export default (
+-  config: ExportedConfig,
+-  props: {
+-    enableBase64ShareAndroid?: boolean;
+-    android?: string[];
+-    ios?: string[];
+-  },
+-) => {
+-  return withBuildProperties(
+-    {
+-      ...config,
+-      android: {
+-        ...config.android,
+-        ...(props.enableBase64ShareAndroid
+-          ? {
+-              permissions: [
+-                ...new Set([
+-                  ...(config.android?.permissions ?? []),
+-                  'android.permission.WRITE_EXTERNAL_STORAGE',
+-                ]),
+-              ],
+-            }
+-          : {}),
+-      },
+-      ios: {
+-        ...config.ios,
+-        infoPlist: {
+-          ...config.ios?.infoPlist,
+-          LSApplicationQueriesSchemes: [...getIOSQuerySchemes(config), ...(props?.ios ?? [])],
+-        },
++/**
++ * @param {import('@expo/config-plugins').ExportedConfig} config
++ */
++const withAndroidManifestService = (config: ExportedConfig, props: WithSocialShareProps) => {
++  return withAndroidManifest(config, (config: ExportedConfigWithProps) => {
++    config.modResults.manifest = {
++      ...config.modResults.manifest,
++      queries: {
++        package: props?.android?.map((social) => ({
++          $: {
++            'android:name': social,
++          },
++        })),
++        intent: [
++          {
++            action: {
++              $: {
++                'android:name': 'android.intent.action.VIEW',
++              },
++            },
++            category: {
++              $: {
++                'android:name': 'android.intent.category.BROWSABLE',
++              },
++            },
++            data: {
++              $: {
++                'android:scheme': 'https',
++              },
++            },
++          },
++        ],
+       },
+-    },
+-    {
+-      android: {
+-        manifestQueries: {
+-          package: props.android ?? [],
+-        },
++    };
++
++    return config;
++  });
++};
++
++const withInfoPlist = (config: ExportedConfig, props: WithSocialShareProps) => {
++  return {
++    ...config,
++    ios: {
++      ...config.ios,
++      infoPlist: {
++        ...config.ios?.infoPlist,
++        LSApplicationQueriesSchemes: config.ios?.infoPlist?.LSApplicationQueriesSchemes
++          ? [...config.ios.infoPlist.LSApplicationQueriesSchemes, ...props.ios]
++          : props.ios,
+       },
+     },
+-  );
++  };
++};
++
++type WithSocialShareProps = {
++  ios: string[];
++  android: string[];
+ };
++
++function withSocialShare(config: ExportedConfig, props: WithSocialShareProps) {
++  config = withAndroidManifestService(config, props); // Android
++  config = withInfoPlist(config, props); // iOS
++  return config;
++}
++
++// eslint-disable-next-line import/no-commonjs
++module.exports = createRunOncePlugin(withSocialShare, pkg.name, pkg.version);
+diff --git a/node_modules/react-native-share/src/components/ShareSheet.tsx b/node_modules/react-native-share/src/components/ShareSheet.tsx
+index 709d2ce..c65e8ca 100644
+--- a/node_modules/react-native-share/src/components/ShareSheet.tsx
++++ b/node_modules/react-native-share/src/components/ShareSheet.tsx
+@@ -34,9 +34,9 @@ const ShareSheet: React.FC<React.PropsWithChildren<ShareSheetProps>> = ({
+   }, [visible, onCancel]);
+ 
+   React.useEffect(() => {
+-    const subscription = BackHandler.addEventListener('hardwareBackPress', backButtonHandler);
++    const backButtonSubscription = BackHandler.addEventListener('hardwareBackPress', backButtonHandler);
+     return () => {
+-      subscription.remove();
++      backButtonSubscription.remove();
+     };
+   }, [backButtonHandler]);
+ 
+diff --git a/node_modules/react-native-share/src/types.ts b/node_modules/react-native-share/src/types.ts
+index 34cd299..ea9d28a 100644
+--- a/node_modules/react-native-share/src/types.ts
++++ b/node_modules/react-native-share/src/types.ts
+@@ -34,7 +34,6 @@ export interface LinkMetadata {
+   image?: string;
+   remoteVideoUrl?: string;
+   video?: string;
+-  base64Icon?: string;
+ }
+ 
+ export interface ActivityItem {

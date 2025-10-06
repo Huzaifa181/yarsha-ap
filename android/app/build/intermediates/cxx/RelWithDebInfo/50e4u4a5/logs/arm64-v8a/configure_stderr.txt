@@ -1,0 +1,205 @@
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:9 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:10 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/@bam.tech/react-native-image-resizer/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:11 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/@d11/react-native-fast-image/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:15 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:16 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/@react-native-camera-roll/camera-roll/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:17 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/@react-native-clipboard/clipboard/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:18 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/@react-native-community/blur/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:21 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/@react-native-documents/picker/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:32 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/@sentry/react-native/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:33 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:34 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:36 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:37 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-compressor/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:38 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-contacts/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:44 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:46 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-haptic-feedback/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:48 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-keychain/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:50 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-mmkv/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:53 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:54 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-permissions/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:58 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-share/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/android/app/build/generated/autolinking/src/main/jni/Android-autolinking.cmake:62 (add_subdirectory):
+  add_subdirectory given source
+  "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-webview/android/build/generated/source/codegen/jni/"
+  which is not an existing directory.
+Call Stack (most recent call first):
+  /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:100 (include)
+  CMakeLists.txt:31 (include)
+
+
+CMake Error at /media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake:103 (target_link_libraries):
+  Cannot specify link libraries for target "react_codegen_RNVectorIconsSpec"
+  which is not built by this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:31 (include)
+
+

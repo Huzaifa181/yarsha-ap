@@ -1,0 +1,24 @@
+{
+  "installationFolder": "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-reanimated/android/build/intermediates/prefab_package/release/prefab",
+  "gradlePath": ":react-native-reanimated",
+  "packageInfo": {
+    "packageName": "react-native-reanimated",
+    "packageVersion": "3.17.5",
+    "packageSchemaVersion": 2,
+    "packageDependencies": [],
+    "modules": [
+      {
+        "moduleName": "reanimated",
+        "moduleHeaders": "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-reanimated/android/build/prefab-headers/reanimated",
+        "moduleExportLibraries": [],
+        "abis": []
+      },
+      {
+        "moduleName": "worklets",
+        "moduleHeaders": "/media/huzaifa/D0742B45742B2DA21/mokshya/Yarsha/node_modules/react-native-reanimated/android/build/prefab-headers/worklets",
+        "moduleExportLibraries": [],
+        "abis": []
+      }
+    ]
+  }
+}

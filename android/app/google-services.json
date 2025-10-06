@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1083013773657",
+    "firebase_url": "https://yarsha-5778c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "yarsha-5778c",
+    "storage_bucket": "yarsha-5778c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083013773657:android:38d590eb8c7486129df448",
+        "android_client_info": {
+          "package_name": "com.mokshya.yarsha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANpt4dh8zQ0hkm9Cta4RGW7nz6sEFumIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

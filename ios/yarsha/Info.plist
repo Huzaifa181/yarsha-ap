@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>en</string>
+		<key>CFBundleDisplayName</key>
+		<string>Yarsha</string>
+		<key>CFBundleExecutable</key>
+		<string>$(EXECUTABLE_NAME)</string>
+		<key>CFBundleIdentifier</key>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>CFBundleName</key>
+		<string>$(PRODUCT_NAME)</string>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleShortVersionString</key>
+		<string>$(MARKETING_VERSION)</string>
+		<key>CFBundleSignature</key>
+		<string>????</string>
+		<key>CFBundleURLTypes</key>
+		<array>
+			<dict>
+				<key>CFBundleTypeRole</key>
+				<string>Editor</string>
+				<key>CFBundleURLName</key>
+				<string>yarshaapp</string>
+				<key>CFBundleURLSchemes</key>
+				<array>
+					<string>yarshaapp</string>
+				</array>
+			</dict>
+		</array>
+		<key>CFBundleVersion</key>
+		<string>$(CURRENT_PROJECT_VERSION)</string>
+		<key>LSRequiresIPhoneOS</key>
+		<true />
+		<key>NSAppTransportSecurity</key>
+		<dict>
+			<key>NSAllowsArbitraryLoads</key>
+			<true />
+			<key>NSAllowsLocalNetworking</key>
+			<true />
+			<key>NSExceptionDomains</key>
+			<dict>
+				<key>34.41.190.61</key>
+				<dict>
+					<key>NSIncludesSubdomains</key>
+					<true />
+					<key>NSExceptionAllowsInsecureHTTPLoads</key>
+					<true />
+					<key>NSTemporaryExceptionMinimumTLSVersion</key>
+					<string>TLSv1.1</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>NSCameraUsageDescription</key>
+		<string>Yarsha uses your camera to take photos and videos that you can send in chat messages or attach to transactions.</string>
+		<key>NSContactsUsageDescription</key>
+		<string>Yarsha uses your contacts to help you invite friends, connect with people you know, and securely share your wallet address.</string>
+		<key>NSFaceIDUsageDescription</key>
+		<string>Yarsha uses Face ID to securely protect your wallet and enhance the security of your account.</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string></string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>"Yarsha allows you to choose photos and videos from your library to share with contacts in chat or attach to on-chain actions.</string>
+		<key>NSMicrophoneUsageDescription</key>
+		<string>Yarsha uses your microphone to record voice messages or audio for video capture.</string>
+		<key>NSPhotoLibraryAddUsageDescription</key>
+		<string>Yarsha allows you to save received photos or media content to your device’s photo library.</string>
+		<key>NSAppleMusicUsageDescription</key>
+		<string>Yarsha requires access to Apple Music to allow you to capture audio while taking videos.</string>
+		<key>UIAppFonts</key>
+		<array>
+			<string>AntDesign.ttf</string>
+			<string>Entypo.ttf</string>
+			<string>EvilIcons.ttf</string>
+			<string>Feather.ttf</string>
+			<string>FontAwesome.ttf</string>
+			<string>FontAwesome5_Brands.ttf</string>
+			<string>FontAwesome5_Regular.ttf</string>
+			<string>FontAwesome5_Solid.ttf</string>
+			<string>FontAwesome6_Brands.ttf</string>
+			<string>FontAwesome6_Regular.ttf</string>
+			<string>FontAwesome6_Solid.ttf</string>
+			<string>Fontisto.ttf</string>
+			<string>Foundation.ttf</string>
+			<string>Ionicons.ttf</string>
+			<string>MaterialCommunityIcons.ttf</string>
+			<string>MaterialIcons.ttf</string>
+			<string>Octicons.ttf</string>
+			<string>SimpleLineIcons.ttf</string>
+			<string>Zocial.ttf</string>
+			<string>Urbanist-Black.ttf</string>
+			<string>Urbanist-BlackItalic.ttf</string>
+			<string>Urbanist-Bold.ttf</string>
+			<string>Urbanist-BoldItalic.ttf</string>
+			<string>Urbanist-ExtraBold.ttf</string>
+			<string>Urbanist-ExtraBoldItalic.ttf</string>
+			<string>Urbanist-ExtraLight.ttf</string>
+			<string>Urbanist-ExtraLightItalic.ttf</string>
+			<string>Urbanist-Italic.ttf</string>
+			<string>Urbanist-Light.ttf</string>
+			<string>Urbanist-LightItalic.ttf</string>
+			<string>Urbanist-Medium.ttf</string>
+			<string>Urbanist-MediumItalic.ttf</string>
+			<string>Urbanist-Regular.ttf</string>
+			<string>Urbanist-SemiBold.ttf</string>
+			<string>Urbanist-SemiBoldItalic.ttf</string>
+			<string>Urbanist-Thin.ttf</string>
+			<string>Urbanist-ThinItalic.ttf</string>
+		</array>
+		<key>UIBackgroundModes</key>
+		<array>
+			<string>remote-notification</string>
+			<string>fetch</string>
+			<string>processing</string>
+		</array>
+		<key>UILaunchStoryboardName</key>
+		<string>BootSplash.storyboard</string>
+		<key>UIRequiredDeviceCapabilities</key>
+		<array>
+			<string>telephony</string>
+		</array>
+		<key>UISupportedInterfaceOrientations</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+		</array>
+		<key>UISupportedInterfaceOrientations~ipad</key>
+		<array>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+			<string>UIInterfaceOrientationPortrait</string>
+		</array>
+		<key>UIViewControllerBasedStatusBarAppearance</key>
+		<false />
+		<key>BGTaskSchedulerPermittedIdentifiers</key>
+		<array>
+			<string>com.transistorsoft.fetch</string>
+			<string>com.transistorsoft.customtask</string>
+		</array>
+	</dict>
+</plist>
